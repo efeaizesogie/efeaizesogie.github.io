@@ -26,6 +26,11 @@ html,
   padding: 5%;
 }
 
+.about-wrapper{
+  width: 70%;
+  margin: 5% 15%;
+}
+
 
 
 .bg-color{
@@ -79,6 +84,11 @@ footer ul li a{
   font-size: 110%;
 }
 
+.about-wrapper{
+  width: 80%;
+  margin: 5% 10%;
+}
+
 }
 
 @media only screen and (max-width:670px){
@@ -89,6 +99,7 @@ footer ul li a{
     }
 
  
+section { padding: 20px 0; }
 
     .contact-wrapper{
         width: 90%;
@@ -105,6 +116,11 @@ footer ul li a{
   display: none;
 }
 
+.about-wrapper{
+  width: 90%;
+  margin: 5%;
+}
+
 }
 
 @media only screen and (max-width:500px){
@@ -118,9 +134,8 @@ footer ul li a{
         width: 100%;
         height: 70%;
         padding-bottom: 0;
+        border-radius: 0;
 }
-
-
 
 .contact-us{
   padding-bottom: 0;
@@ -140,7 +155,6 @@ footer ul li a{
   left: 30%;
   padding: 3%;
 }
-section { padding: 25px 0; }
 
 .meal-heading{
   font-size: 60%;
