@@ -21,7 +21,7 @@ html,
 }
 .hero-section {
   right: 20%;
-  top: 60%;
+  top: 50%;
   left: 35%;
   padding: 5%;
 }
@@ -51,11 +51,10 @@ html,
   clip-path: circle(600px at right 800px);
 }
 .hero-section {
-  font-size: 90%;
+  font-size: 100%;
   right: 20%;
-  top: 60%;
-  left: 35%;
-  padding: 5%;
+  left: 30%;
+  padding: 8%;
 }
 
 .hero-section p {
@@ -97,7 +96,10 @@ footer ul li a{
     body{
         font-size: 18px;
     }
-
+    .hero-section {
+      left: 25%;
+      padding: 8%;
+    }
  
 section { padding: 20px 0; }
 
@@ -114,6 +116,9 @@ section { padding: 20px 0; }
 }
 .navList {
   display: none;
+}
+a.nav-icon{
+  display: block;
 }
 
 .about-wrapper{
@@ -151,9 +156,9 @@ section { padding: 20px 0; }
 .hero-section {
   font-size: 90%;
   right: 20%;
-  top: 70%;
-  left: 30%;
-  padding: 3%;
+  top: 50%;
+  left: 25%;
+  padding: 7%;
 }
 
 .meal-heading{
