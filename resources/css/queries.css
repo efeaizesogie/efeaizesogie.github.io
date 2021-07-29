@@ -52,7 +52,7 @@ html,
 }
 .hero-section {
   font-size: 100%;
-  right: 20%;
+  right: 15%;
   left: 30%;
   padding: 8%;
 }
@@ -155,10 +155,10 @@ a.nav-icon{
 }
 .hero-section {
   font-size: 90%;
-  right: 20%;
+  right: 10%;
   top: 50%;
   left: 25%;
-  padding: 7%;
+  padding: 8%;
 }
 
 .meal-heading{
