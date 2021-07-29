@@ -123,12 +123,11 @@ a.nav-icon {
 .nav-icon i{
   color: #23cfa7;
   font-size: 150%;
-  z-index: 10;
+  z-index: 100;
 }
 .sticky .nav-icon{
   top: 15px;
 }
-
 
 .sticky .navList{
   margin: 8px 8px -6px 8px;
