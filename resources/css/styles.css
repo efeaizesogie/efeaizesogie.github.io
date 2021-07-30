@@ -229,10 +229,11 @@ border-bottom: 2px solid transparent;
 
 .hero-section {
   position: absolute;
-  top: 50%;
+  top: 40%;
   left: 50%;
+  right: 10%;
   border: 2px solid hsla(350, 100%, 86%, 1);
-  padding: 4%;
+  padding: 4.5%;
   border-radius: 10px;
   background: rgba(39, 39, 39, 0.705);
   transition: all 0.5s;
@@ -244,12 +245,12 @@ border-bottom: 2px solid transparent;
 }
 
 h1 {
-  font-size: 200%;
+  font-size: 250%;
   font-family: "Lato";
   text-transform: uppercase;
   font-weight: 100;
-  word-spacing: 2px;
-  letter-spacing: 1px;
+  word-spacing: 3px;
+  letter-spacing: 2px;
   color: #fff;
   animation: heroAnim 1s 0.6s forwards;
   opacity: 0;
@@ -262,7 +263,7 @@ h1 {
 }
 
 .hero-section p {
-  font-size: 80%;
+  font-size: 90%;
   text-transform: uppercase;
   animation: heroAnim 1s 0.4s forwards;
   opacity: 0;
@@ -541,13 +542,14 @@ form{
 
 label{
   font-size: 90%;
+  width: 10%;
 }
 
 input[type= "text"],
 input[type= "email"],
 input[type= "submit"],
 textarea{
-  width: 100%;
+  width: 90%;
   padding: 15px;
   border-radius: 3px;
   color: #4b4b4b;
