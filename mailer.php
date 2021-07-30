@@ -8,12 +8,12 @@
 
     // Check the data.
     if (empty($name) OR empty($message) OR !filter_var($email, FILTER_VALIDATE_EMAIL)) {
-        header("Location: http://www.efeaizesogie.github.io/index.php?success=-1#form");
+        header("Location: http://www.webdesigncourse.co/omnifood/index.php?success=-1#form");
         exit;
     }
 
     // Set the recipient email address. Update this to YOUR desired email address.
-    $recipient = "limrichie@gmail.com";
+    $recipient = "hello@webdesigncourse.co";
 
     // Set the email subject.
     $subject = "New contact from $name";
@@ -30,6 +30,6 @@
     mail($recipient, $subject, $email_content, $email_headers);
     
     // Redirect to the index.html page with success code
-    header("Location: http://www.efeaizesogie.github.io/index.php?success=1#form");
+    header("Location: http://www.webdesigncourse.co/omnifood/index.php?success=1#form");
 
 ?>
