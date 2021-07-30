@@ -258,11 +258,11 @@
 
         <?php
 
-        if($_GET['success == 1']){
-            echo "<div class=\"form-messages success\"> Thank you, your message have been recieved! </div>"
+        if($_GET['success'] == 1){
+            echo "<div class=\"form-messages success\"> Thank you, your message have been recieved! </div>";
         }
 
-        if($_GET['success == 1']){
+        if($_GET['success']  == -1){
             echo "<div class=\"form-messages error\"> Oops, something went wrong! please try again.</div>";
         }
     
