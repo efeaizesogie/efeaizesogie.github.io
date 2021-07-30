@@ -272,7 +272,7 @@
       <div class="contact-wrapper js--wp-2" id="form">
         <div class="contact-left"></div>
         <div class="contact-right">
-          <form action="mailer.php" method="GET">
+          <form action="mailer.php" method="POST">
             <div class="contact-items">
               <div class="col span-1-of-4 contact-label">
                 <label for="name">Name</label>
