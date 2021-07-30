@@ -263,7 +263,7 @@
         }
 
         if($_GET['success == 1']){
-            echo "<div class=\"form-messages error\"> Oops, something went wrong! please try again.</div>"
+            echo "<div class=\"form-messages error\"> Oops, something went wrong! please try again.</div>";
         }
     
         ?>
