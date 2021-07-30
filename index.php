@@ -254,25 +254,24 @@
         <h2>Contact Us</h2>
       </div>
 
-      <div class="messages-wrapper">
-
-        <?php
-
-        if($_GET['success'] == 1){
-            echo "<div class=\"form-messages success\"> Thank you, your message have been recieved! </div>";
-        }
-
-        if($_GET['success']  == -1){
-            echo "<div class=\"form-messages error\"> Oops, something went wrong! please try again.</div>";
-        }
-    
-        ?>
-
-
       <div class="contact-wrapper js--wp-2" id="form">
         <div class="contact-left"></div>
         <div class="contact-right">
           <form action="mailer.php" method="POST">
+          <div class="messages-wrapper">
+
+            <?php
+
+            if($_GET['success'] == 1){
+                echo "<div class=\"form-messages success\"> Thank you, your message have been recieved! </div>";
+            }
+
+            if($_GET['success']  == -1){
+                echo "<div class=\"form-messages error\"> Oops, something went wrong! please try again.</div>";
+            }
+
+            ?>
+            </div>
             <div class="contact-items">
               <div class="col span-1-of-4 contact-label">
                 <label for="name">Name</label>
