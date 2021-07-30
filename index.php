@@ -254,18 +254,19 @@
         <h2>Contact Us</h2>
       </div>
 
-      <div class="row">
+      <div class="messages-wrapper">
 
-        
-        <div class="form-messages success">
-          Thank you, your message have been recieved!
-        </div>
-        <div class="form-messages error">
-          Thank you, your message have been recieved!
-        </div>
-      
-      </div>
+        <?php
 
+        if($_GET['success == 1']){
+            echo "<div class=\"form-messages success\"> Thank you, your message have been recieved! </div>"
+        }
+
+        if($_GET['success == 1']){
+            echo "<div class=\"form-messages error\"> Oops, something went wrong! please try again.</div>"
+        }
+    
+        ?>
 
 
       <div class="contact-wrapper js--wp-2" id="form">
