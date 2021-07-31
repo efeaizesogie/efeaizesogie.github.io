@@ -501,29 +501,6 @@ transition: all 0.5s;
   flex-direction: column;
 }
 
-.form-messages{
-  width: 100%;
-  margin: 0 auto;
-  height: auto;
-  font-size: 90%;
-  padding: 5px;
-  margin-bottom: 10px;
-  border-radius: 3px;
-  color: #333;
-  -webkit-border-radius: 3px;
-  -moz-border-radius: 3px;
-  -ms-border-radius: 3px;
-  -o-border-radius: 3px;
-}
-
-.success{
-  background-color: #23cfa7;
-}
-
-.error{
-  background-color: #f30606d5;
-}
-
 .contact-wrapper{
   display: flex;
   justify-content: center;
